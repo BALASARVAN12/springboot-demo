@@ -11,7 +11,8 @@ public class ProjectApplication {
 
 	@GetMapping("/")
 	public String message(){
-		return "hello world!!";
+
+		return "hello world!! hello sarvan";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectApplication.class, args);
